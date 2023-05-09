@@ -1,0 +1,52 @@
+{
+  "javascript.format.enable": false,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  },
+
+  "editor.formatOnSave": true,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Consolas",
+  "editor.fontSize": 16,
+  "editor.tabSize": 4,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  },
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "cSpell.words": [
+    "AVAX",
+    "clsx",
+    "cssnano",
+    "Deapp",
+    "Flexbox",
+    "heroicons",
+    "hexlify",
+    "montion",
+    "Montion",
+    "NOBO",
+    "nocompatible",
+    "qrcode",
+    "ROADMAP",
+    "safepal",
+    "SAFU",
+    "Symbian",
+    "tailwindcss",
+    "TBNB",
+    "Tiktok",
+    "tokenaddr",
+    "trustwallet",
+    "walletconnect",
+    "wnext",
+    "Youtuber",
+    "ZHCN"
+  ]
+}

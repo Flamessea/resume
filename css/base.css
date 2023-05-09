@@ -1,0 +1,156 @@
+:root {
+    --color-primary: #173456;
+    --color-defalut: #555;
+    --color-light: #444;
+    --color-border: #173456;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, MicrosoftYaHei-Bold, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: white;
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5 {
+    color: var(--color-primary);
+}
+
+.color-light {
+    color: var(--color-light);
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.y-wrap {
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.y-header {
+}
+
+.y-header h1 {
+    padding-bottom: 20px;
+}
+
+.y-header .jobs {
+    padding-bottom: 15px;
+}
+.y-container{
+    margin-top: 20px;
+}
+.user-info {
+    line-height: 30px;
+}
+
+.user-info .col {
+    width: 50%;
+}
+
+.user-info .col p span:first-child {
+    color: var(--color-light);
+}
+
+.line {
+    line-height: 30px;
+    position: relative;
+}
+.line::before{
+    content: '';
+    position: absolute;
+    left: 135px;
+    top: 15px;
+    width: 1px;
+    height: 100%;
+    border-left: 1px solid var(--color-border);
+}
+
+.line .left {
+    width: 130px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.line .left.t{
+    font-weight: bold;
+    color: var(--color-primary);
+}
+
+.line .info {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.line .info ul{
+    margin-left: 20px;
+    padding: 10px 0;
+}
+
+.line .border{
+    width: 100%;
+    position: relative;
+}
+.line .border::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    border: 5px solid var(--color-border);
+}
+.line .border::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.line .info .c {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+
+.no-dot ul{
+    list-style-type: none;
+    margin-left: 0 !important;
+}
